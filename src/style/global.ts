@@ -27,6 +27,7 @@ const GlobalStyles = createGlobalStyle`
     -webkit-font-smoothing: antialiased;
     font-family: 'Karla', sans-serif;
     color: #222;
+    background-color: #0B2434;
   }
 
   img, picture, video, canvas, svg {
