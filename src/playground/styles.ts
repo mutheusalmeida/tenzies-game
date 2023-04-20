@@ -25,5 +25,39 @@ export const Desc = styled.p`
   color: #4A4E74;
   text-align: center;
   max-width: 17.9230em;
+`
 
+export const NumbersWrapper = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  margin: 1.5em 0 1.625em;
+`
+
+export const RollBtn = styled.button`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.25em 1em;
+  min-height: 2.25em;
+  width: 5.75em;
+  background-color: #5035FF;
+  box-shadow: 0px 3.2px 7.68px rgba(0, 0, 0, 0.18);
+  border-radius: 0.25em;
+  border: none;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.1875em;
+  color: #FFF;
+  cursor: pointer;
+  text-transform: capitalize;
+
+  :hover,
+  :focus {
+    opacity: 0.95;
+  }
+
+  :active {
+    scale: 0.98;
+  }
 `
