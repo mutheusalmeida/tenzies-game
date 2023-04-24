@@ -15,7 +15,7 @@ export const Playground = () => {
   const roll = useCallback(() => {
     setData(prev => {
       return prev.map(item => {
-        const num = Math.floor(Math.random() * 9) + 1
+        const num = Math.ceil(Math.random() * 6)
 
         if (!item.isDone) {
           return {
